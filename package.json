@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "lerna": "^6.6.2"
+  },
+  "name": "pifio-raking",
+  "workspaces": [
+    "packages/*"
+  ]
+}

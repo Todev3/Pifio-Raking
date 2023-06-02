@@ -1,4 +1,5 @@
 # Pifio-Raking
+<<<<<<< HEAD
 
 Este é um projeto de plataforma de avaliação de cursos de tecnologia, que tem como objetivo fornecer um espaço onde os usuários podem compartilhar suas experiências e opiniões sobre cursos na área de tecnologia, além de rankear os melhores cursos com base em critérios como qualidade do conteúdo, didática dos professores, suporte pós-curso, relação custo-benefício, entre outros. Esta plataforma será um recurso inestimável para ajudar os futuros alunos a tomarem decisões mais informadas sobre quais cursos investir.
 
@@ -24,3 +25,13 @@ Para o desenvolvimento deste projeto, vamos usar uma stack de tecnologia moderna
 
 Esperamos que este projeto seja uma ferramenta útil para a comunidade de tecnologia e ajude a elevar o padrão de educação em tecnologia.
 
+=======
+Site voltado para rankeamento de cursos em TI
+
+# Objetivo
+Repositorio colaborativo para aprendizado dos seguidores do Todev3
+
+# Tecnologias
+Front: NextJs, Tailwind
+Api: NestJs
+>>>>>>> ca2314247f2f35b40925cf0f68766558bf9aff5e
