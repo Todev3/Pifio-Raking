@@ -1,0 +1,22 @@
+version: "3"
+
+services:
+  api: 
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - 3000:3000
+      - 9229:9229
+    volumes:
+      - ./src:/app/src
+  db:
+    image: postgres:15.3
+    volumes:
+      - ./data:/var/lib/postgresql/data
+    environment:
+      POSTGRES_PASSWORD: "root"
+      POSTGRES_USER: "root"
+      POSTGRES_DB: "pifio"
+    ports:
+      - 5432:5432
